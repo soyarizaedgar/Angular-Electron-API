@@ -6,5 +6,5 @@ Node js Api with Mongodb to manage bills and tasks
 2. docker-compose up
 
 PORTS:
-localhost:3001
+localhost:3001,
 mongodb://localhost:27020
