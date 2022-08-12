@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  api:
+    container_name: biyuyoapi
+    restart: always
+    build: .
+    ports: 
+      - "3001:3001"
+    links: 
+      - mongo
+    
+  mongo:
+    container_name: mongodb
+    image: mongo
+    ports: 
+      - "27020:27017"
