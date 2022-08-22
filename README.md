@@ -1,4 +1,4 @@
-# Biyuyo-API
+# Angular-Electron-API
 Node js Api with Mongodb to manage bills and tasks
 
 # DOCKER COMPOSE IMAGE
